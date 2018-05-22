@@ -1,0 +1,39 @@
+li {
+  list-style: none;
+}
+
+.header {
+  text-align: center;
+}
+
+.nav-flex ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.gallery img {
+  width: 600px;
+  /* height: auto; */
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  /* grid-gap: 2px; */
+}
+
+/* .one {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.two {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.three {
+  grid-row-start: 1;
+  grid-row-end: 1;
+} */
