@@ -57,6 +57,28 @@ h2 {
 
 .menu-flex {
   display: flex;
-  /* flex-wrap: wrap;
-  flex-direction: column; */
+  justify-content: space-around;
+}
+
+.menu1 {
+  flex-basis: 40%;
+}
+
+.menu2 {
+  flex-basis: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-flex {
+    display: block;
+  }
+  .gallery {
+    display: block;
+  }
+  .gallery img {
+    display: block;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+  }
 }
